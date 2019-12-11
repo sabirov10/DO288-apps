@@ -27,7 +27,7 @@ USER 1001
 RUN rm -rf /run/httpd && mkdir /run/httpd
 
 # Run as the root user
-USER root
+#USER root
 
 # Launch httpd
 CMD /usr/sbin/httpd -DFOREGROUND
